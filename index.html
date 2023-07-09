@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/3204f9593b.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fasthand&family=Hind+Vadodara:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+
+    <!-- Swipper -->
+    <link rel="stylesheet" href="./swiper-bundle.min.css">
+</head>
+<body>
+    <div id="header-home">
+        <div class="container">
+            <header>
+                <div class="navbar">
+                    <div class="logo"><a href=""><img class="logo-image" src="./personal-portfolio-img/images/vk-logo.png" alt=""></a></div>
+                    <ul class="links">
+                        <li><a href="#header-home">Home</a></li>
+                        <li><a href="#about">about</a></li>
+                        <li><a href="#projects">projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                    <div class="toggle_btn">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+                </div>
+        
+                <div class="dropdown_menu">
+                    <li><a href="#header-home">Home</a></li>
+                    <li><a href="#about">about</a></li>
+                    <li><a href="#projects">projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </div>
+        
+            </header>
+        
+            <main>
+                <section class="home-text">
+                    <h2>Hey! what's up</h2>
+                    <h1>I'm <span>Vishal</span> Kumar</h1>
+                </section>
+            </main>
+    
+
+        </div>
+    </div>
+    <div id="boarder"></div>
+
+<!-- -----------ABOUT---------------- -->
+
+    <div id="about">
+        <div class="container">
+            <div class="about-row-1">
+                <div class="about-row-1-col-1">
+                    <img src="./personal-portfolio-img/images/dp.jpg">
+                </div>
+                <div class="about-row-1-col-2">
+                    <h1 class="about-title">About me</h1>
+                    <p id="about-subtitle">Hello, I'm an engineering student in my last year at IIITD. I've stayed up all night developing code.
+                         I'm motivated and interested in learning more about software development and machine learning.
+                          One of the most amazing sensations I have ever had is the excitement of working on a concept and watching it materialise. The projects I've worked on, in my opinion,
+                           have been the high point of my trip thus far. I have been driven to continually seek for issues and answers nearby because
+                            I am motivated to work by situations like these.
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')" >Skills</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+
+                    <div class="tab-contents active-tab" id="skills">
+                        <div class="tab-contents-row">
+                            <div class="tab-contents-col-1">
+                                <ul>
+                                    <li><span>Java</span></li>
+                                    <div class="progress" role="progressbar" aria-label="Success example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                                        <div class="progress-bar bg-success" style="width: 85%">85%</div>
+                                    </div>
+                                    <li><span>Python</span></li>
+                                    <div class="progress" role="progressbar" aria-label="Warning example" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+                                        <div class="progress-bar bg-warning" style="width: 80%">80%</div>
+                                    </div>
+                                    <li><span>Python Libraries</span></li>
+                                    <div class="progress" role="progressbar" aria-label="Danger example" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+                                        <div class="progress-bar bg-danger" style="width: 70%">70%</div>
+                                    </div>
+                                    <li><span>Android</span></li>
+                                    <div class="progress" role="progressbar" aria-label="Info example" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+                                        <div class="progress-bar bg-info" style="width: 50%">50%</div>
+                                    </div>
+                                    <li><span>Figma</span></li>
+                                    <div class="progress" role="progressbar" aria-label="Info example" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+                                        <div class="progress-bar bg-info" style="width: 60%">60%</div>
+                                    </div>
+                                </ul>
+                            </div>
+                            <div class="tab-contents-col-2">
+                                <ul>
+                                    <li><span>Machine learning</span></li>
+                                    <div class="progress" role="progressbar" aria-label="Success example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                                        <div class="progress-bar bg-success" style="width: 70%">70%</div>
+                                    </div>
+                                    <li><span>HTML/CSS</span></li>
+                                    <div class="progress" role="progressbar" aria-label="Info example" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+                                        <div class="progress-bar bg-info" style="width: 75%">75%</div>
+                                    </div>
+                                    <li><span>Matlab</span></li>
+                                    <div class="progress" role="progressbar" aria-label="Warning example" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+                                        <div class="progress-bar bg-warning" style="width: 65%">65%</div>
+                                    </div>
+                                    <li><span>C++</span></li>
+                                    <div class="progress" role="progressbar" aria-label="Danger example" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+                                        <div class="progress-bar bg-danger" style="width: 40%">40%</div>
+                                    </div>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2014 - 2017</span><br>Secondary School, Mother teresa Public School, Burari </li>
+                            <li><span>2017 - 2019</span><br> Higher School, Sarvodaya Vidyalaya, Pitampura</li>
+                            <li><span>2020 - Present</span><br>Bachelor of Technology, IIITD</li>
+                        </ul>
+                    </div>
+
+                </div>
+
+            </div>
+           
+        </div>
+        <div id="about-boarder"></div>
+    </div>
+
+
+<!-- ----------------Projects----------------- -->
+    
+    <div id="projects" class="project-container">
+        <h1 class="sub-title">My Projects</h1>
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <li class="project-card">
+                    <div class="card__image">
+                        <img src="./personal-portfolio-img/images/deeplearning.webp" alt="card image">
+                    </div>
+              
+                    <div class="card__content">
+                        <span class="card__title">Image Sentiment Analysis</span>
+                        <p class="card__text">It is Deep neural network model  that analysis the sentiment of image using CNN.
+                        </p>
+                        <a class="arrow" href="https://github.com/vishal20265/neural_network_model"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </li>
+            </div>
+              <div class="swiper-slide">
+                <li class="project-card">
+                    
+                    <div class="card__image">
+                        <img src="./personal-portfolio-img/images/Screenshot 2023-07-10 032038.png" alt="card image">
+                    </div>
+              
+                    <div class="card__content">
+                        <span class="card__title">Evento App</span>
+                        <p class="card__text">It is a android development project which have aim to solve the events planning problems. 
+                        </p>
+                        <a class="arrow" href="https://github.com/vishal20265/Evento_app"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </li>
+                </div>
+              <div class="swiper-slide">
+                <li class="project-card">
+                    
+                    <div class="card__image">
+                        <img src="./personal-portfolio-img/images/ML.jpg" alt="card image">
+                    </div>
+              
+                    <div class="card__content">
+                        <span class="card__title">Cardiac Arrest Analyser</span>
+                        <p class="card__text">It is machine learning research that predicts cardiac arrest.This model is trained 
+                            using several methods, including KNN, SVM, RF, etc.
+                        </p>
+                        <a class="arrow" href="https://github.com/vishal20265/ML_project"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </li>
+            </div>
+              <div class="swiper-slide">
+                <li class="project-card">
+                    
+                    <div class="card__image">
+                        <img src="./personal-portfolio-img/images/javafx.jpg" alt="card image">
+                    </div>
+              
+                    <div class="card__content">
+                        <span class="card__title">Ludo Game</span>
+                        <p class="card__text">Designed using the implemention of Java OOP's and JavaFx. It provide the two player mode for playing.
+
+                        </p>
+                        <a class="arrow" href="https://github.com/vishal20265/LUDO_Game"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </li>
+                </div>
+              <div class="swiper-slide">
+                <li class="project-card">
+    
+                    <div class="card__image">
+                        <img src="./personal-portfolio-img/images/pygame.jpg" alt="card image">
+                    </div>
+              
+                    <div class="card__content">
+                        <span class="card__title">Space Game</span>
+                        <p class="card__text">This game is designed using python and pygame. <br>
+                            It provide a single player mode.
+                        </p>
+                        <a class="arrow" href="https://github.com/vishal20265/Space_game"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </li>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+
+    </div>
+
+    <!-- Swipper -->
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="./script.js"></script>
+
+
+
+
+    <div id="boarder"></div>
+
+
+<!-- -------------------------Contact---------- --> 
+    <div id="contact">
+        <div class="container">
+            <div class="contact-icon">
+                <a href="https://www.linkedin.com/in/vishalkr1702"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://www.instagram.com/its_h_u_g_e/"><i class="fa-brands fa-instagram"></i></a>
+                <p>vishal20265@iiitd.ac.in</p>
+            </div>
+            
+
+        </div>
+    </div>
+
+
+<!-- ---------ABout Script-------------- -->
+    <script>
+
+        const toggleBtn = document.querySelector('.toggle_btn')
+        const toggleBtnIcon = document.querySelector('.toggle_btn i')
+        const dropDownMenu = document.querySelector('.dropdown_menu')
+
+        toggleBtn.onclick= function(){
+            dropDownMenu.classList.toggle('open')
+            const isOpen = dropDownMenu.classList.contains('open')
+
+            toggleBtnIcon.classList = isOpen ? "fa-solid fa-xmark" : "fa-solid fa-bars"
+
+        }
+
+        var tablinks= document.getElementsByClassName("tab-links");
+        var tabcontents= document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+    </script>
+    
+</body>
+</html>
